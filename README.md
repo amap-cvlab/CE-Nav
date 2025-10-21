@@ -11,7 +11,7 @@
 
 CE-Nav is a learning-based, generalizable local navigation framework for robots. It features a novel two-stage (Imitation Learning-then-Reinforcement Learning) methodology that systematically decouples universal geometric reasoning from embodiment-specific dynamic adaptation, enabling efficient policy transfer across diverse robot morphologies including quadrupeds, bipeds, and quadrotors.
 
-## Cross-Embodiment Navigation Demonstrations
+## Cross-Embodiment Navigation
 
 <table align="center">
   <tr>
@@ -37,7 +37,7 @@ CE-Nav is a learning-based, generalizable local navigation framework for robots.
   </tr>
 </table>
 
-## VelFlow: Multi-Modal Velocity Modeling
+## VelFlow: Multi-Modal Velocity Planning
 
 <table align="center">
   <tr>
