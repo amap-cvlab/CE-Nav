@@ -2,12 +2,42 @@
 
 CE-Nav is a learning-based, generalizable local navigation framework for robots. It features a novel two-stage (Imitation Learning-then-Reinforcement Learning) methodology that systematically decouples universal geometric reasoning from embodiment-specific dynamic adaptation, enabling efficient policy transfer across diverse robot morphologies including quadrupeds, bipeds, and quadrotors.
 
-**Paper:** [arXiv:2509.23203](https://arxiv.org/abs/2509.23203)  
-**Project Page:** [https://ce-nav-project.github.io](https://ce-nav-project.github.io) _(Coming Soon)_
+<p align="center">
+  <a href="https://arxiv.org/abs/2509.23203">
+    <img src="https://img.shields.io/badge/arXiv-2509.23203-b31b1b.svg" alt="arXiv">
+  </a>
+  <a href="https://ce-nav-project.github.io">
+    <img src="https://img.shields.io/badge/Project-Page-green.svg" alt="Project Page">
+  </a>
+</p>
 
 <div align="center">
   <img src="media/all.gif" width="70%">
 </div>
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Go2</b></td>
+    <td align="center"><b>MagicDog</b></td>
+    <td align="center"><b>Spot</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="media/go2.gif" width="100%"></td>
+    <td align="center"><img src="media/magic.gif" width="100%"></td>
+    <td align="center"><img src="media/spotflow.gif" width="100%"></td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Hummingbird</b></td>
+    <td align="center"><b>H1</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="media/hb.gif" width="100%"></td>
+    <td align="center"><img src="media/h1flow.gif" width="100%"></td>
+  </tr>
+</table>
 
 <table align="center">
   <tr>
