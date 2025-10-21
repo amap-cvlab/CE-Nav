@@ -11,10 +11,6 @@ CE-Nav is a learning-based, generalizable local navigation framework for robots.
   </a>
 </p>
 
-<div align="center">
-  <img src="media/all.gif" width="70%">
-</div>
-
 <table align="center">
   <tr>
     <td align="center"><b>Go2</b></td>
