@@ -1,0 +1,128 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+*.eggs/
+
+# Distribution / packaging
+build/
+dist/
+*.whl
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sqlite
+*.pkl
+*.h5
+
+# Test coverage reports
+htmlcov/
+*.cover
+.coverage
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# JetBrains IDEs
+*.idea/
+*.ipr
+*.iws
+*.iml
+out/
+
+# Ignore environment variables or configuration
+.env
+.env.local
+.env.*.local
+
+# Ignore temporary files
+*.swp
+*.swo
+*~
+
+# Ignore Docker-related files
+docker-compose.override.yml
+
+# Ignore compiled shared libraries
+*.so
+*.o
+
+# Ignore version files
+*/tensordict/version.py
+
+# Ignore Warp build artifacts
+*/warp/_build/
+*/warp/warp/native/*.o
+
+# Ignore Hydra logs and configuration
+*/outputs/*/.hydra/
+
+# Ignore Weights & Biases (wandb) logs
+*/wandb/
+*/wandb/*/files/
+*/wandb/*/*.wandb
+
+# Ignore Isaac Orbit symlink
+isaac-training/third_party/orbit/_isaac_sim
+
+# Ignore version files
+isaac-training/third_party/rl/torchrl/version.py
+isaac-training/third_party/tensordict/tensordict/version.py
+
+# Ignore Hydra logs and configs
+isaac-training/training/scripts/outputs/*/.hydra/
+
+# Ignore Weights & Biases (wandb) logs
+isaac-training/training/scripts/wandb/
+
+isaac-training/training/scripts/outputs/
+isaac-training/third_party/warp/_build/
+
+isaac-training/outputs/
+
+ros2/install
+ros2/build
+ros2/log
+install
+log
+Log
+ros2/123.txt
+ros2/log.txt
+ros2/navigation_runner/scripts/cfg/dog.yaml
+ros2/il_train_data
+
+il-training/data
+il-training/__pycache__
+il-training/experiment
+il-training/outputs
+isaac-training/pretrained_weights/

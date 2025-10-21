@@ -1,0 +1,2036 @@
+{
+  "timestamp": "2025-10-13T10:57:08.325237",
+  "obstacle_count": 700,
+  "all_results": {
+    "obstacles_700": [
+      {
+        "trial_name": "line_robot_1",
+        "scenario_name": "line_robot_1",
+        "seed": 36,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.285,
+        "trajectory_length": 3057,
+        "metrics": {
+          "path_length": 25.42005157470703,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9441365599632263,
+          "velocity_smoothness": 0.9878534373655483,
+          "yaw_rate_smoothness": 0.9317400931266775,
+          "avg_velocity": 1.6615995168685913,
+          "max_velocity": 1.9900892972946167,
+          "spl": 0.9441365599632263
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_2",
+        "scenario_name": "line_robot_2",
+        "seed": 37,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.950000000000001,
+        "trajectory_length": 2990,
+        "metrics": {
+          "path_length": 25.304027557373047,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9484655857086182,
+          "velocity_smoothness": 0.9882840766513241,
+          "yaw_rate_smoothness": 0.9392984893168963,
+          "avg_velocity": 1.6910914182662964,
+          "max_velocity": 1.9230929613113403,
+          "spl": 0.9484655857086182
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_3",
+        "scenario_name": "line_robot_3",
+        "seed": 38,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.445,
+        "trajectory_length": 3089,
+        "metrics": {
+          "path_length": 25.58049774169922,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9382147192955017,
+          "velocity_smoothness": 0.9837575846294592,
+          "yaw_rate_smoothness": 0.8973767397581456,
+          "avg_velocity": 1.6548296213150024,
+          "max_velocity": 2.0611133575439453,
+          "spl": 0.9382147192955017
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_4",
+        "scenario_name": "line_robot_4",
+        "seed": 39,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 1560,
+        "metrics": {
+          "path_length": 12.530366897583008,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.9153469800949097,
+          "velocity_smoothness": 0.9864133328115661,
+          "yaw_rate_smoothness": 0.935135666340902,
+          "avg_velocity": 1.605837106704712,
+          "max_velocity": 1.9012173414230347,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_5",
+        "scenario_name": "line_robot_5",
+        "seed": 40,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.94,
+        "trajectory_length": 2988,
+        "metrics": {
+          "path_length": 25.17955780029297,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9531541466712952,
+          "velocity_smoothness": 0.988338198830854,
+          "yaw_rate_smoothness": 0.9266838443703299,
+          "avg_velocity": 1.6836928129196167,
+          "max_velocity": 2.115849018096924,
+          "spl": 0.9531541466712952
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_6",
+        "scenario_name": "line_robot_6",
+        "seed": 41,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 1551,
+        "metrics": {
+          "path_length": 12.696771621704102,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.8902442455291748,
+          "velocity_smoothness": 0.9874379836289086,
+          "yaw_rate_smoothness": 0.9313004592471172,
+          "avg_velocity": 1.6358692646026611,
+          "max_velocity": 1.954732894897461,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_7",
+        "scenario_name": "line_robot_7",
+        "seed": 42,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.59,
+        "trajectory_length": 3118,
+        "metrics": {
+          "path_length": 26.15488052368164,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.917610764503479,
+          "velocity_smoothness": 0.9880536770828939,
+          "yaw_rate_smoothness": 0.9026462531442723,
+          "avg_velocity": 1.675765872001648,
+          "max_velocity": 2.117347002029419,
+          "spl": 0.917610764503479
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_8",
+        "scenario_name": "line_robot_8",
+        "seed": 43,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.465,
+        "trajectory_length": 3093,
+        "metrics": {
+          "path_length": 25.927284240722656,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9256657958030701,
+          "velocity_smoothness": 0.9886088012767692,
+          "yaw_rate_smoothness": 0.9210468543460872,
+          "avg_velocity": 1.6751068830490112,
+          "max_velocity": 2.1188886165618896,
+          "spl": 0.9256657958030701
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_9",
+        "scenario_name": "line_robot_9",
+        "seed": 44,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.97,
+        "trajectory_length": 2994,
+        "metrics": {
+          "path_length": 25.480812072753906,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.941885232925415,
+          "velocity_smoothness": 0.9883895174005327,
+          "yaw_rate_smoothness": 0.9366984010569461,
+          "avg_velocity": 1.7007970809936523,
+          "max_velocity": 2.1398472785949707,
+          "spl": 0.941885232925415
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_10",
+        "scenario_name": "line_robot_10",
+        "seed": 45,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.63,
+        "trajectory_length": 2926,
+        "metrics": {
+          "path_length": 25.086532592773438,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9566885828971863,
+          "velocity_smoothness": 0.988790094124021,
+          "yaw_rate_smoothness": 0.9424300014185066,
+          "avg_velocity": 1.7131940126419067,
+          "max_velocity": 2.132230758666992,
+          "spl": 0.9566885828971863
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_11",
+        "scenario_name": "line_robot_11",
+        "seed": 46,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.105,
+        "trajectory_length": 3021,
+        "metrics": {
+          "path_length": 25.593576431274414,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9377353191375732,
+          "velocity_smoothness": 0.9882742582263657,
+          "yaw_rate_smoothness": 0.9223377151533406,
+          "avg_velocity": 1.692629098892212,
+          "max_velocity": 2.095409870147705,
+          "spl": 0.9377353191375732
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_12",
+        "scenario_name": "line_robot_12",
+        "seed": 47,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.965,
+        "trajectory_length": 2993,
+        "metrics": {
+          "path_length": 25.430252075195312,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9437578320503235,
+          "velocity_smoothness": 0.9883685528189262,
+          "yaw_rate_smoothness": 0.9269967018435317,
+          "avg_velocity": 1.6978555917739868,
+          "max_velocity": 2.076551914215088,
+          "spl": 0.9437578320503235
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_13",
+        "scenario_name": "line_robot_13",
+        "seed": 48,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.735,
+        "trajectory_length": 2947,
+        "metrics": {
+          "path_length": 25.049968719482422,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9580850005149841,
+          "velocity_smoothness": 0.98895087499549,
+          "yaw_rate_smoothness": 0.9427617442933066,
+          "avg_velocity": 1.6985948085784912,
+          "max_velocity": 2.0329267978668213,
+          "spl": 0.9580850005149841
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_14",
+        "scenario_name": "line_robot_14",
+        "seed": 49,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.715,
+        "trajectory_length": 2943,
+        "metrics": {
+          "path_length": 25.029802322387695,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9588569402694702,
+          "velocity_smoothness": 0.9887822515369961,
+          "yaw_rate_smoothness": 0.9425699821430078,
+          "avg_velocity": 1.699712872505188,
+          "max_velocity": 2.0781500339508057,
+          "spl": 0.9588569402694702
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_15",
+        "scenario_name": "line_robot_15",
+        "seed": 50,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.785,
+        "trajectory_length": 2957,
+        "metrics": {
+          "path_length": 25.177101135253906,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9532471299171448,
+          "velocity_smoothness": 0.9883757365201948,
+          "yaw_rate_smoothness": 0.937288264155145,
+          "avg_velocity": 1.7013708353042603,
+          "max_velocity": 2.0758614540100098,
+          "spl": 0.9532471299171448
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_16",
+        "scenario_name": "line_robot_16",
+        "seed": 51,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.89,
+        "trajectory_length": 2978,
+        "metrics": {
+          "path_length": 25.23732566833496,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9509723782539368,
+          "velocity_smoothness": 0.9889079391231687,
+          "yaw_rate_smoothness": 0.9435086591462422,
+          "avg_velocity": 1.6934947967529297,
+          "max_velocity": 2.016399621963501,
+          "spl": 0.9509723782539368
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_17",
+        "scenario_name": "line_robot_17",
+        "seed": 52,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.875,
+        "trajectory_length": 2975,
+        "metrics": {
+          "path_length": 25.343441009521484,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9469906091690063,
+          "velocity_smoothness": 0.988606901639464,
+          "yaw_rate_smoothness": 0.9406126433490029,
+          "avg_velocity": 1.7022823095321655,
+          "max_velocity": 1.9881280660629272,
+          "spl": 0.9469906091690063
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_18",
+        "scenario_name": "line_robot_18",
+        "seed": 53,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.035,
+        "trajectory_length": 3007,
+        "metrics": {
+          "path_length": 25.502822875976562,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9410722851753235,
+          "velocity_smoothness": 0.9887060320414796,
+          "yaw_rate_smoothness": 0.9425241690643456,
+          "avg_velocity": 1.6946194171905518,
+          "max_velocity": 1.959458827972412,
+          "spl": 0.9410722851753235
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_19",
+        "scenario_name": "line_robot_19",
+        "seed": 54,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.125,
+        "trajectory_length": 3025,
+        "metrics": {
+          "path_length": 25.649513244628906,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9356902837753296,
+          "velocity_smoothness": 0.988425803340248,
+          "yaw_rate_smoothness": 0.9353018927734227,
+          "avg_velocity": 1.694218635559082,
+          "max_velocity": 1.9643597602844238,
+          "spl": 0.9356902837753296
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_20",
+        "scenario_name": "line_robot_20",
+        "seed": 55,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.16,
+        "trajectory_length": 3032,
+        "metrics": {
+          "path_length": 25.803874969482422,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9300928711891174,
+          "velocity_smoothness": 0.9887386656651178,
+          "yaw_rate_smoothness": 0.9428047072117028,
+          "avg_velocity": 1.7005698680877686,
+          "max_velocity": 1.9291282892227173,
+          "spl": 0.9300928711891174
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_21",
+        "scenario_name": "line_robot_21",
+        "seed": 56,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.530000000000001,
+        "trajectory_length": 3106,
+        "metrics": {
+          "path_length": 26.38422393798828,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9096344709396362,
+          "velocity_smoothness": 0.9883358162604458,
+          "yaw_rate_smoothness": 0.9268676874054254,
+          "avg_velocity": 1.6975468397140503,
+          "max_velocity": 1.9822958707809448,
+          "spl": 0.9096344709396362
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_22",
+        "scenario_name": "line_robot_22",
+        "seed": 57,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.98,
+        "trajectory_length": 2996,
+        "metrics": {
+          "path_length": 25.313621520996094,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9481061697006226,
+          "velocity_smoothness": 0.9887325501107952,
+          "yaw_rate_smoothness": 0.9436678857622935,
+          "avg_velocity": 1.6883989572525024,
+          "max_velocity": 1.9746205806732178,
+          "spl": 0.9481061697006226
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_23",
+        "scenario_name": "line_robot_23",
+        "seed": 58,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.01,
+        "trajectory_length": 3002,
+        "metrics": {
+          "path_length": 25.734588623046875,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9325969815254211,
+          "velocity_smoothness": 0.9882418981006765,
+          "yaw_rate_smoothness": 0.9275620952713858,
+          "avg_velocity": 1.7129522562026978,
+          "max_velocity": 2.085822105407715,
+          "spl": 0.9325969815254211
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_24",
+        "scenario_name": "line_robot_24",
+        "seed": 59,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 1981,
+        "metrics": {
+          "path_length": 16.643110275268555,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.4420381784439087,
+          "velocity_smoothness": 0.9877262786023159,
+          "yaw_rate_smoothness": 0.9311649018000466,
+          "avg_velocity": 1.6786636114120483,
+          "max_velocity": 2.004005193710327,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_25",
+        "scenario_name": "line_robot_25",
+        "seed": 60,
+        "success": true,
+        "collision": false,
+        "completion_time": 16.21,
+        "trajectory_length": 3242,
+        "metrics": {
+          "path_length": 26.174720764160156,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.916915237903595,
+          "velocity_smoothness": 0.9884914907518931,
+          "yaw_rate_smoothness": 0.9349833017191058,
+          "avg_velocity": 1.613071322441101,
+          "max_velocity": 2.0678045749664307,
+          "spl": 0.916915237903595
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_26",
+        "scenario_name": "line_robot_26",
+        "seed": 61,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.530000000000001,
+        "trajectory_length": 2906,
+        "metrics": {
+          "path_length": 24.933826446533203,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.962547779083252,
+          "velocity_smoothness": 0.9887313574180832,
+          "yaw_rate_smoothness": 0.9381669207791105,
+          "avg_velocity": 1.7144752740859985,
+          "max_velocity": 2.1228690147399902,
+          "spl": 0.962547779083252
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_27",
+        "scenario_name": "line_robot_27",
+        "seed": 62,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.76,
+        "trajectory_length": 2952,
+        "metrics": {
+          "path_length": 25.521949768066406,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9403670430183411,
+          "velocity_smoothness": 0.9883048466194424,
+          "yaw_rate_smoothness": 0.9342818726042019,
+          "avg_velocity": 1.7272613048553467,
+          "max_velocity": 2.181704044342041,
+          "spl": 0.9403670430183411
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_28",
+        "scenario_name": "line_robot_28",
+        "seed": 63,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.185,
+        "trajectory_length": 3037,
+        "metrics": {
+          "path_length": 25.39089584350586,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9452207088470459,
+          "velocity_smoothness": 0.9884838749397631,
+          "yaw_rate_smoothness": 0.9291600823921089,
+          "avg_velocity": 1.6704894304275513,
+          "max_velocity": 2.028712034225464,
+          "spl": 0.9452207088470459
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_29",
+        "scenario_name": "line_robot_29",
+        "seed": 64,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.15,
+        "trajectory_length": 3030,
+        "metrics": {
+          "path_length": 25.72817611694336,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9328294396400452,
+          "velocity_smoothness": 0.9887289611159281,
+          "yaw_rate_smoothness": 0.9342613371338757,
+          "avg_velocity": 1.6965652704238892,
+          "max_velocity": 1.9701945781707764,
+          "spl": 0.9328294396400452
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_30",
+        "scenario_name": "line_robot_30",
+        "seed": 65,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.01,
+        "trajectory_length": 3002,
+        "metrics": {
+          "path_length": 25.51963233947754,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9404523968696594,
+          "velocity_smoothness": 0.9886684301152978,
+          "yaw_rate_smoothness": 0.9422046040808799,
+          "avg_velocity": 1.6987866163253784,
+          "max_velocity": 2.102196455001831,
+          "spl": 0.9404523968696594
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_31",
+        "scenario_name": "line_robot_31",
+        "seed": 66,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.575000000000001,
+        "trajectory_length": 2915,
+        "metrics": {
+          "path_length": 25.077058792114258,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9570500254631042,
+          "velocity_smoothness": 0.9883314960045722,
+          "yaw_rate_smoothness": 0.9395492100292324,
+          "avg_velocity": 1.7190237045288086,
+          "max_velocity": 2.093083381652832,
+          "spl": 0.9570500254631042
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_32",
+        "scenario_name": "line_robot_32",
+        "seed": 67,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.66,
+        "trajectory_length": 2932,
+        "metrics": {
+          "path_length": 25.084613800048828,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9567617774009705,
+          "velocity_smoothness": 0.988697858495531,
+          "yaw_rate_smoothness": 0.9454050414686318,
+          "avg_velocity": 1.7096984386444092,
+          "max_velocity": 2.0244922637939453,
+          "spl": 0.9567617774009705
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_33",
+        "scenario_name": "line_robot_33",
+        "seed": 68,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.865,
+        "trajectory_length": 2973,
+        "metrics": {
+          "path_length": 24.8942813873291,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.964076817035675,
+          "velocity_smoothness": 0.9888743426271336,
+          "yaw_rate_smoothness": 0.945848621732683,
+          "avg_velocity": 1.673384666442871,
+          "max_velocity": 2.0192131996154785,
+          "spl": 0.964076817035675
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_34",
+        "scenario_name": "line_robot_34",
+        "seed": 69,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.58,
+        "trajectory_length": 2916,
+        "metrics": {
+          "path_length": 25.09681510925293,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9562966227531433,
+          "velocity_smoothness": 0.9887891881181191,
+          "yaw_rate_smoothness": 0.9439950979539149,
+          "avg_velocity": 1.7198072671890259,
+          "max_velocity": 2.089968681335449,
+          "spl": 0.9562966227531433
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_35",
+        "scenario_name": "line_robot_35",
+        "seed": 70,
+        "success": true,
+        "collision": false,
+        "completion_time": 17.225,
+        "trajectory_length": 3445,
+        "metrics": {
+          "path_length": 27.735214233398438,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.865325927734375,
+          "velocity_smoothness": 0.988419332254071,
+          "yaw_rate_smoothness": 0.9279613755400644,
+          "avg_velocity": 1.608718991279602,
+          "max_velocity": 2.1085808277130127,
+          "spl": 0.865325927734375
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_36",
+        "scenario_name": "line_robot_36",
+        "seed": 71,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.620000000000001,
+        "trajectory_length": 2924,
+        "metrics": {
+          "path_length": 25.11638641357422,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9555514454841614,
+          "velocity_smoothness": 0.9888390300148955,
+          "yaw_rate_smoothness": 0.934369459232036,
+          "avg_velocity": 1.7166192531585693,
+          "max_velocity": 2.0624310970306396,
+          "spl": 0.9555514454841614
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_37",
+        "scenario_name": "line_robot_37",
+        "seed": 72,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.975,
+        "trajectory_length": 2995,
+        "metrics": {
+          "path_length": 25.486663818359375,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9416689276695251,
+          "velocity_smoothness": 0.9886670309316653,
+          "yaw_rate_smoothness": 0.9354403262310598,
+          "avg_velocity": 1.700242280960083,
+          "max_velocity": 2.039642810821533,
+          "spl": 0.9416689276695251
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_38",
+        "scenario_name": "line_robot_38",
+        "seed": 73,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.895,
+        "trajectory_length": 2979,
+        "metrics": {
+          "path_length": 25.444427490234375,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9432320594787598,
+          "velocity_smoothness": 0.9882990275200663,
+          "yaw_rate_smoothness": 0.935668960209539,
+          "avg_velocity": 1.7066421508789062,
+          "max_velocity": 2.034412384033203,
+          "spl": 0.9432320594787598
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_39",
+        "scenario_name": "line_robot_39",
+        "seed": 74,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 643,
+        "metrics": {
+          "path_length": 4.753036975860596,
+          "direct_distance": 24.0,
+          "path_efficiency": 5.049403190612793,
+          "velocity_smoothness": 0.9840608117351656,
+          "yaw_rate_smoothness": 0.9313878803149056,
+          "avg_velocity": 1.4788610935211182,
+          "max_velocity": 2.0125339031219482,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_40",
+        "scenario_name": "line_robot_40",
+        "seed": 75,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.91,
+        "trajectory_length": 3182,
+        "metrics": {
+          "path_length": 26.011886596679688,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9226551055908203,
+          "velocity_smoothness": 0.9886349846113685,
+          "yaw_rate_smoothness": 0.934600955288546,
+          "avg_velocity": 1.6333740949630737,
+          "max_velocity": 1.957364797592163,
+          "spl": 0.9226551055908203
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_41",
+        "scenario_name": "line_robot_41",
+        "seed": 76,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.06,
+        "trajectory_length": 3012,
+        "metrics": {
+          "path_length": 25.946861267089844,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.924967348575592,
+          "velocity_smoothness": 0.9884727403586201,
+          "yaw_rate_smoothness": 0.932604315668216,
+          "avg_velocity": 1.7213927507400513,
+          "max_velocity": 2.0924434661865234,
+          "spl": 0.924967348575592
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_42",
+        "scenario_name": "line_robot_42",
+        "seed": 77,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.915000000000001,
+        "trajectory_length": 3183,
+        "metrics": {
+          "path_length": 25.775068283081055,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9311323761940002,
+          "velocity_smoothness": 0.987904081170435,
+          "yaw_rate_smoothness": 0.9163438188472459,
+          "avg_velocity": 1.6177458763122559,
+          "max_velocity": 2.0575239658355713,
+          "spl": 0.9311323761940002
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_43",
+        "scenario_name": "line_robot_43",
+        "seed": 78,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.975,
+        "trajectory_length": 2995,
+        "metrics": {
+          "path_length": 25.692028045654297,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9341419339179993,
+          "velocity_smoothness": 0.988706700278991,
+          "yaw_rate_smoothness": 0.9378457723877159,
+          "avg_velocity": 1.7142126560211182,
+          "max_velocity": 2.0318431854248047,
+          "spl": 0.9341419339179993
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_44",
+        "scenario_name": "line_robot_44",
+        "seed": 79,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.8,
+        "trajectory_length": 2960,
+        "metrics": {
+          "path_length": 25.34957504272461,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.946761429309845,
+          "velocity_smoothness": 0.9883544604763095,
+          "yaw_rate_smoothness": 0.926297652767206,
+          "avg_velocity": 1.7111948728561401,
+          "max_velocity": 2.050692081451416,
+          "spl": 0.946761429309845
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_45",
+        "scenario_name": "line_robot_45",
+        "seed": 80,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.69,
+        "trajectory_length": 2938,
+        "metrics": {
+          "path_length": 25.255098342895508,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9503031969070435,
+          "velocity_smoothness": 0.9885456811574626,
+          "yaw_rate_smoothness": 0.9319261065915889,
+          "avg_velocity": 1.7179579734802246,
+          "max_velocity": 2.133556842803955,
+          "spl": 0.9503031969070435
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_46",
+        "scenario_name": "line_robot_46",
+        "seed": 81,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.58,
+        "trajectory_length": 2916,
+        "metrics": {
+          "path_length": 25.11855697631836,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9554688930511475,
+          "velocity_smoothness": 0.9885267949273171,
+          "yaw_rate_smoothness": 0.9307207255853773,
+          "avg_velocity": 1.721145510673523,
+          "max_velocity": 2.133317708969116,
+          "spl": 0.9554688930511475
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_47",
+        "scenario_name": "line_robot_47",
+        "seed": 82,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.625,
+        "trajectory_length": 2925,
+        "metrics": {
+          "path_length": 25.018535614013672,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9592887759208679,
+          "velocity_smoothness": 0.9885984202621088,
+          "yaw_rate_smoothness": 0.9366871930900602,
+          "avg_velocity": 1.7092314958572388,
+          "max_velocity": 2.0909783840179443,
+          "spl": 0.9592887759208679
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_48",
+        "scenario_name": "line_robot_48",
+        "seed": 83,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 668,
+        "metrics": {
+          "path_length": 4.865870475769043,
+          "direct_distance": 24.0,
+          "path_efficiency": 4.932313919067383,
+          "velocity_smoothness": 0.9844425355929044,
+          "yaw_rate_smoothness": 0.9465643095306235,
+          "avg_velocity": 1.4566773176193237,
+          "max_velocity": 1.880547046661377,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_49",
+        "scenario_name": "line_robot_49",
+        "seed": 84,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.57,
+        "trajectory_length": 2914,
+        "metrics": {
+          "path_length": 24.814502716064453,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9671763181686401,
+          "velocity_smoothness": 0.9883009796442495,
+          "yaw_rate_smoothness": 0.9388006924122725,
+          "avg_velocity": 1.701783537864685,
+          "max_velocity": 2.1518917083740234,
+          "spl": 0.9671763181686401
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_50",
+        "scenario_name": "line_robot_50",
+        "seed": 85,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.49,
+        "trajectory_length": 2898,
+        "metrics": {
+          "path_length": 24.83682632446289,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9663070440292358,
+          "velocity_smoothness": 0.9886193299691245,
+          "yaw_rate_smoothness": 0.92882567121027,
+          "avg_velocity": 1.7127224206924438,
+          "max_velocity": 2.1022050380706787,
+          "spl": 0.9663070440292358
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_51",
+        "scenario_name": "line_robot_51",
+        "seed": 86,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.38,
+        "trajectory_length": 2876,
+        "metrics": {
+          "path_length": 24.689409255981445,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9720767140388489,
+          "velocity_smoothness": 0.9885491750799287,
+          "yaw_rate_smoothness": 0.9369169647327409,
+          "avg_velocity": 1.7155232429504395,
+          "max_velocity": 2.083883285522461,
+          "spl": 0.9720767140388489
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_52",
+        "scenario_name": "line_robot_52",
+        "seed": 87,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.59,
+        "trajectory_length": 2918,
+        "metrics": {
+          "path_length": 24.88015365600586,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.964624285697937,
+          "velocity_smoothness": 0.9885560119176083,
+          "yaw_rate_smoothness": 0.9401243021749943,
+          "avg_velocity": 1.7038929462432861,
+          "max_velocity": 2.0826900005340576,
+          "spl": 0.964624285697937
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_53",
+        "scenario_name": "line_robot_53",
+        "seed": 88,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.49,
+        "trajectory_length": 2898,
+        "metrics": {
+          "path_length": 24.832307815551758,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9664828777313232,
+          "velocity_smoothness": 0.988676620471344,
+          "yaw_rate_smoothness": 0.9472172441560419,
+          "avg_velocity": 1.7126290798187256,
+          "max_velocity": 2.119610071182251,
+          "spl": 0.9664828777313232
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_54",
+        "scenario_name": "line_robot_54",
+        "seed": 89,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.535,
+        "trajectory_length": 2907,
+        "metrics": {
+          "path_length": 24.914325714111328,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9633011817932129,
+          "velocity_smoothness": 0.9881398289196905,
+          "yaw_rate_smoothness": 0.9332826212098508,
+          "avg_velocity": 1.7127025127410889,
+          "max_velocity": 2.1344056129455566,
+          "spl": 0.9633011817932129
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_55",
+        "scenario_name": "line_robot_55",
+        "seed": 90,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.675,
+        "trajectory_length": 2935,
+        "metrics": {
+          "path_length": 24.98054313659668,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9607477188110352,
+          "velocity_smoothness": 0.9887011413715499,
+          "yaw_rate_smoothness": 0.9449399546021008,
+          "avg_velocity": 1.7006168365478516,
+          "max_velocity": 2.0923962593078613,
+          "spl": 0.9607477188110352
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_56",
+        "scenario_name": "line_robot_56",
+        "seed": 91,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 1797,
+        "metrics": {
+          "path_length": 14.00800895690918,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.7133055925369263,
+          "velocity_smoothness": 0.9861337599353676,
+          "yaw_rate_smoothness": 0.9046738693182886,
+          "avg_velocity": 1.5577061176300049,
+          "max_velocity": 2.06549334526062,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_57",
+        "scenario_name": "line_robot_57",
+        "seed": 92,
+        "success": true,
+        "collision": false,
+        "completion_time": 16.955000000000002,
+        "trajectory_length": 3391,
+        "metrics": {
+          "path_length": 27.69579315185547,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.8665575981140137,
+          "velocity_smoothness": 0.9883349292812692,
+          "yaw_rate_smoothness": 0.9401292143851355,
+          "avg_velocity": 1.6321812868118286,
+          "max_velocity": 2.0265045166015625,
+          "spl": 0.8665575981140137
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_58",
+        "scenario_name": "line_robot_58",
+        "seed": 93,
+        "success": true,
+        "collision": false,
+        "completion_time": 16.625,
+        "trajectory_length": 3325,
+        "metrics": {
+          "path_length": 27.952613830566406,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.8585959076881409,
+          "velocity_smoothness": 0.9883307382124786,
+          "yaw_rate_smoothness": 0.9197446824194878,
+          "avg_velocity": 1.679931879043579,
+          "max_velocity": 2.123344659805298,
+          "spl": 0.8585959076881409
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_59",
+        "scenario_name": "line_robot_59",
+        "seed": 94,
+        "success": true,
+        "collision": false,
+        "completion_time": 16.945,
+        "trajectory_length": 3389,
+        "metrics": {
+          "path_length": 27.58121109008789,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.8701575994491577,
+          "velocity_smoothness": 0.9880073862347553,
+          "yaw_rate_smoothness": 0.9229848727410024,
+          "avg_velocity": 1.6264629364013672,
+          "max_velocity": 2.022787570953369,
+          "spl": 0.8701575994491577
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_60",
+        "scenario_name": "line_robot_60",
+        "seed": 95,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 873,
+        "metrics": {
+          "path_length": 6.770467758178711,
+          "direct_distance": 24.0,
+          "path_efficiency": 3.544806718826294,
+          "velocity_smoothness": 0.9856669857051349,
+          "yaw_rate_smoothness": 0.929485143696683,
+          "avg_velocity": 1.5500761270523071,
+          "max_velocity": 1.978762149810791,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_61",
+        "scenario_name": "line_robot_61",
+        "seed": 96,
+        "success": true,
+        "collision": false,
+        "completion_time": 16.105,
+        "trajectory_length": 3221,
+        "metrics": {
+          "path_length": 27.122081756591797,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.8848878145217896,
+          "velocity_smoothness": 0.9887301865790289,
+          "yaw_rate_smoothness": 0.9369248351323135,
+          "avg_velocity": 1.682582974433899,
+          "max_velocity": 2.0341923236846924,
+          "spl": 0.8848878145217896
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_62",
+        "scenario_name": "line_robot_62",
+        "seed": 97,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 557,
+        "metrics": {
+          "path_length": 3.8362441062927246,
+          "direct_distance": 24.0,
+          "path_efficiency": 6.256119251251221,
+          "velocity_smoothness": 0.9829188539314156,
+          "yaw_rate_smoothness": 0.9245528895610443,
+          "avg_velocity": 1.3770835399627686,
+          "max_velocity": 1.8699005842208862,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_63",
+        "scenario_name": "line_robot_63",
+        "seed": 98,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 555,
+        "metrics": {
+          "path_length": 3.8051986694335938,
+          "direct_distance": 24.0,
+          "path_efficiency": 6.3071608543396,
+          "velocity_smoothness": 0.9833359574751797,
+          "yaw_rate_smoothness": 0.9206098519387075,
+          "avg_velocity": 1.3721908330917358,
+          "max_velocity": 1.853667140007019,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_64",
+        "scenario_name": "line_robot_64",
+        "seed": 99,
+        "success": true,
+        "collision": false,
+        "completion_time": 17.645,
+        "trajectory_length": 3529,
+        "metrics": {
+          "path_length": 27.938705444335938,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.8590233325958252,
+          "velocity_smoothness": 0.988094311068493,
+          "yaw_rate_smoothness": 0.9126903574420155,
+          "avg_velocity": 1.5827133655548096,
+          "max_velocity": 2.0877301692962646,
+          "spl": 0.8590233325958252
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_65",
+        "scenario_name": "line_robot_65",
+        "seed": 100,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.665000000000001,
+        "trajectory_length": 3133,
+        "metrics": {
+          "path_length": 26.37281608581543,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9100279808044434,
+          "velocity_smoothness": 0.9886908822287821,
+          "yaw_rate_smoothness": 0.931518394721198,
+          "avg_velocity": 1.682236909866333,
+          "max_velocity": 1.9969559907913208,
+          "spl": 0.9100279808044434
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_66",
+        "scenario_name": "line_robot_66",
+        "seed": 101,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.035,
+        "trajectory_length": 3007,
+        "metrics": {
+          "path_length": 25.82128143310547,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9294658899307251,
+          "velocity_smoothness": 0.9888012531569913,
+          "yaw_rate_smoothness": 0.9459902814482593,
+          "avg_velocity": 1.7161730527877808,
+          "max_velocity": 2.1156005859375,
+          "spl": 0.9294658899307251
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_67",
+        "scenario_name": "line_robot_67",
+        "seed": 102,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2901,
+        "metrics": {
+          "path_length": 24.116424560546875,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.995172381401062,
+          "velocity_smoothness": 0.988652206382837,
+          "yaw_rate_smoothness": 0.9401797457496669,
+          "avg_velocity": 1.660895824432373,
+          "max_velocity": 1.9251502752304077,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_68",
+        "scenario_name": "line_robot_68",
+        "seed": 103,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2889,
+        "metrics": {
+          "path_length": 24.206111907958984,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9914851188659668,
+          "velocity_smoothness": 0.9884859852241417,
+          "yaw_rate_smoothness": 0.9320829477268888,
+          "avg_velocity": 1.6739366054534912,
+          "max_velocity": 2.0315191745758057,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_69",
+        "scenario_name": "line_robot_69",
+        "seed": 104,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.855,
+        "trajectory_length": 2971,
+        "metrics": {
+          "path_length": 25.425418853759766,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9439372420310974,
+          "velocity_smoothness": 0.9886441147426693,
+          "yaw_rate_smoothness": 0.9334117833409626,
+          "avg_velocity": 1.7101953029632568,
+          "max_velocity": 2.16464900970459,
+          "spl": 0.9439372420310974
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_70",
+        "scenario_name": "line_robot_70",
+        "seed": 105,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.41,
+        "trajectory_length": 3082,
+        "metrics": {
+          "path_length": 25.634885787963867,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9362241625785828,
+          "velocity_smoothness": 0.9886107628169615,
+          "yaw_rate_smoothness": 0.9349410371597766,
+          "avg_velocity": 1.662149429321289,
+          "max_velocity": 2.114762783050537,
+          "spl": 0.9362241625785828
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_71",
+        "scenario_name": "line_robot_71",
+        "seed": 106,
+        "success": true,
+        "collision": false,
+        "completion_time": 15.155000000000001,
+        "trajectory_length": 3031,
+        "metrics": {
+          "path_length": 25.42113494873047,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9440963268280029,
+          "velocity_smoothness": 0.988731501269418,
+          "yaw_rate_smoothness": 0.942331935608327,
+          "avg_velocity": 1.676229476928711,
+          "max_velocity": 1.9856348037719727,
+          "spl": 0.9440963268280029
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_72",
+        "scenario_name": "line_robot_72",
+        "seed": 107,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.71,
+        "trajectory_length": 2942,
+        "metrics": {
+          "path_length": 25.125904083251953,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9551895260810852,
+          "velocity_smoothness": 0.9886269742661565,
+          "yaw_rate_smoothness": 0.9461685047910954,
+          "avg_velocity": 1.7068572044372559,
+          "max_velocity": 2.0904548168182373,
+          "spl": 0.9551895260810852
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_73",
+        "scenario_name": "line_robot_73",
+        "seed": 108,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.545,
+        "trajectory_length": 2909,
+        "metrics": {
+          "path_length": 24.937049865722656,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9624233841896057,
+          "velocity_smoothness": 0.9888126191482234,
+          "yaw_rate_smoothness": 0.9430831957890629,
+          "avg_velocity": 1.7131108045578003,
+          "max_velocity": 2.1379122734069824,
+          "spl": 0.9624233841896057
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_74",
+        "scenario_name": "line_robot_74",
+        "seed": 109,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.56,
+        "trajectory_length": 2912,
+        "metrics": {
+          "path_length": 24.83988380432129,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9661880731582642,
+          "velocity_smoothness": 0.988625219289677,
+          "yaw_rate_smoothness": 0.944062281093818,
+          "avg_velocity": 1.704940915107727,
+          "max_velocity": 2.09171462059021,
+          "spl": 0.9661880731582642
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_75",
+        "scenario_name": "line_robot_75",
+        "seed": 110,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.51,
+        "trajectory_length": 2902,
+        "metrics": {
+          "path_length": 24.711868286132812,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.971193253993988,
+          "velocity_smoothness": 0.988792878622904,
+          "yaw_rate_smoothness": 0.9470789528006129,
+          "avg_velocity": 1.7016602754592896,
+          "max_velocity": 2.0758867263793945,
+          "spl": 0.971193253993988
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_76",
+        "scenario_name": "line_robot_76",
+        "seed": 111,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.445,
+        "trajectory_length": 2889,
+        "metrics": {
+          "path_length": 24.634824752807617,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9742305874824524,
+          "velocity_smoothness": 0.9885584710908146,
+          "yaw_rate_smoothness": 0.9378998183102241,
+          "avg_velocity": 1.7043182849884033,
+          "max_velocity": 2.08866024017334,
+          "spl": 0.9742305874824524
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_77",
+        "scenario_name": "line_robot_77",
+        "seed": 112,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.435,
+        "trajectory_length": 2887,
+        "metrics": {
+          "path_length": 24.621082305908203,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9747743606567383,
+          "velocity_smoothness": 0.988540757489948,
+          "yaw_rate_smoothness": 0.9425079464272267,
+          "avg_velocity": 1.7044005393981934,
+          "max_velocity": 2.0745656490325928,
+          "spl": 0.9747743606567383
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_78",
+        "scenario_name": "line_robot_78",
+        "seed": 113,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.4,
+        "trajectory_length": 2880,
+        "metrics": {
+          "path_length": 24.616981506347656,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9749367237091064,
+          "velocity_smoothness": 0.988582863256646,
+          "yaw_rate_smoothness": 0.9395268961276215,
+          "avg_velocity": 1.708219289779663,
+          "max_velocity": 2.0872273445129395,
+          "spl": 0.9749367237091064
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_79",
+        "scenario_name": "line_robot_79",
+        "seed": 114,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.475,
+        "trajectory_length": 2895,
+        "metrics": {
+          "path_length": 24.699831008911133,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9716665744781494,
+          "velocity_smoothness": 0.9885324583543663,
+          "yaw_rate_smoothness": 0.9401142666510586,
+          "avg_velocity": 1.7051867246627808,
+          "max_velocity": 2.0571107864379883,
+          "spl": 0.9716665744781494
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_80",
+        "scenario_name": "line_robot_80",
+        "seed": 115,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.51,
+        "trajectory_length": 2902,
+        "metrics": {
+          "path_length": 24.779176712036133,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9685551524162292,
+          "velocity_smoothness": 0.9879752235770911,
+          "yaw_rate_smoothness": 0.9286203214756636,
+          "avg_velocity": 1.7065410614013672,
+          "max_velocity": 2.0721869468688965,
+          "spl": 0.9685551524162292
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_81",
+        "scenario_name": "line_robot_81",
+        "seed": 116,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.595,
+        "trajectory_length": 2919,
+        "metrics": {
+          "path_length": 24.890193939208984,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9642351269721985,
+          "velocity_smoothness": 0.9887240738609091,
+          "yaw_rate_smoothness": 0.9327782629683449,
+          "avg_velocity": 1.7037638425827026,
+          "max_velocity": 1.9635151624679565,
+          "spl": 0.9642351269721985
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_82",
+        "scenario_name": "line_robot_82",
+        "seed": 117,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.65,
+        "trajectory_length": 2930,
+        "metrics": {
+          "path_length": 24.91463851928711,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9632890820503235,
+          "velocity_smoothness": 0.9887653921716604,
+          "yaw_rate_smoothness": 0.9402118484643829,
+          "avg_velocity": 1.6994822025299072,
+          "max_velocity": 1.9847710132598877,
+          "spl": 0.9632890820503235
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_83",
+        "scenario_name": "line_robot_83",
+        "seed": 118,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.76,
+        "trajectory_length": 2952,
+        "metrics": {
+          "path_length": 25.05054473876953,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.958063006401062,
+          "velocity_smoothness": 0.9886651957039653,
+          "yaw_rate_smoothness": 0.946792033032367,
+          "avg_velocity": 1.6958012580871582,
+          "max_velocity": 1.9643393754959106,
+          "spl": 0.958063006401062
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_84",
+        "scenario_name": "line_robot_84",
+        "seed": 119,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.86,
+        "trajectory_length": 2972,
+        "metrics": {
+          "path_length": 25.263572692871094,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9499844312667847,
+          "velocity_smoothness": 0.9889258006853929,
+          "yaw_rate_smoothness": 0.9414217756689286,
+          "avg_velocity": 1.6988351345062256,
+          "max_velocity": 1.9812626838684082,
+          "spl": 0.9499844312667847
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_85",
+        "scenario_name": "line_robot_85",
+        "seed": 120,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2906,
+        "metrics": {
+          "path_length": 24.52590560913086,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9785571098327637,
+          "velocity_smoothness": 0.9885079394501204,
+          "yaw_rate_smoothness": 0.94721866495605,
+          "avg_velocity": 1.6866148710250854,
+          "max_velocity": 1.9774094820022583,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_86",
+        "scenario_name": "line_robot_86",
+        "seed": 121,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2233,
+        "metrics": {
+          "path_length": 18.520292282104492,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.295875906944275,
+          "velocity_smoothness": 0.9880760830984396,
+          "yaw_rate_smoothness": 0.9385600221744984,
+          "avg_velocity": 1.6570706367492676,
+          "max_velocity": 1.9737820625305176,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_87",
+        "scenario_name": "line_robot_87",
+        "seed": 122,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2428,
+        "metrics": {
+          "path_length": 18.964771270751953,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.2655043601989746,
+          "velocity_smoothness": 0.9869522585125118,
+          "yaw_rate_smoothness": 0.9244183149988218,
+          "avg_velocity": 1.5613040924072266,
+          "max_velocity": 1.976772427558899,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_88",
+        "scenario_name": "line_robot_88",
+        "seed": 123,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2213,
+        "metrics": {
+          "path_length": 18.798442840576172,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.2767014503479004,
+          "velocity_smoothness": 0.9880138719289668,
+          "yaw_rate_smoothness": 0.9391470160382934,
+          "avg_velocity": 1.69756019115448,
+          "max_velocity": 1.9819557666778564,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_89",
+        "scenario_name": "line_robot_89",
+        "seed": 124,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2224,
+        "metrics": {
+          "path_length": 18.75067138671875,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.279954195022583,
+          "velocity_smoothness": 0.9881041668365859,
+          "yaw_rate_smoothness": 0.9311142068218741,
+          "avg_velocity": 1.6849160194396973,
+          "max_velocity": 2.043348789215088,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_90",
+        "scenario_name": "line_robot_90",
+        "seed": 125,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2211,
+        "metrics": {
+          "path_length": 18.63275718688965,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.28805410861969,
+          "velocity_smoothness": 0.9880493374725623,
+          "yaw_rate_smoothness": 0.9405092713959862,
+          "avg_velocity": 1.6841650009155273,
+          "max_velocity": 1.9871827363967896,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_91",
+        "scenario_name": "line_robot_91",
+        "seed": 126,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2221,
+        "metrics": {
+          "path_length": 18.72771644592285,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.2815229892730713,
+          "velocity_smoothness": 0.9883049930756961,
+          "yaw_rate_smoothness": 0.9344529611699615,
+          "avg_velocity": 1.684836745262146,
+          "max_velocity": 2.028660774230957,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_92",
+        "scenario_name": "line_robot_92",
+        "seed": 127,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2248,
+        "metrics": {
+          "path_length": 18.96436309814453,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.2655315399169922,
+          "velocity_smoothness": 0.9879704528566698,
+          "yaw_rate_smoothness": 0.9382512543326789,
+          "avg_velocity": 1.6859021186828613,
+          "max_velocity": 2.0257389545440674,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_93",
+        "scenario_name": "line_robot_93",
+        "seed": 128,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.695,
+        "trajectory_length": 2939,
+        "metrics": {
+          "path_length": 25.164840698242188,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9537115693092346,
+          "velocity_smoothness": 0.9885453826416583,
+          "yaw_rate_smoothness": 0.9419189073692671,
+          "avg_velocity": 1.71101713180542,
+          "max_velocity": 2.1830508708953857,
+          "spl": 0.9537115693092346
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_94",
+        "scenario_name": "line_robot_94",
+        "seed": 129,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 783,
+        "metrics": {
+          "path_length": 5.3952460289001465,
+          "direct_distance": 24.0,
+          "path_efficiency": 4.448360443115234,
+          "velocity_smoothness": 0.9842269624583233,
+          "yaw_rate_smoothness": 0.9151979597132252,
+          "avg_velocity": 1.3794041872024536,
+          "max_velocity": 2.0030100345611572,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_95",
+        "scenario_name": "line_robot_95",
+        "seed": 130,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 745,
+        "metrics": {
+          "path_length": 5.287505149841309,
+          "direct_distance": 24.0,
+          "path_efficiency": 4.539002895355225,
+          "velocity_smoothness": 0.9836035849227405,
+          "yaw_rate_smoothness": 0.911266802654357,
+          "avg_velocity": 1.4195858240127563,
+          "max_velocity": 1.9619425535202026,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_96",
+        "scenario_name": "line_robot_96",
+        "seed": 131,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.495000000000001,
+        "trajectory_length": 2899,
+        "metrics": {
+          "path_length": 24.98702621459961,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9604984521865845,
+          "velocity_smoothness": 0.9887992617223625,
+          "yaw_rate_smoothness": 0.9352129169590924,
+          "avg_velocity": 1.7222462892532349,
+          "max_velocity": 2.152214765548706,
+          "spl": 0.9604984521865845
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_97",
+        "scenario_name": "line_robot_97",
+        "seed": 132,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2227,
+        "metrics": {
+          "path_length": 18.749340057373047,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.2800450325012207,
+          "velocity_smoothness": 0.9875755918992579,
+          "yaw_rate_smoothness": 0.9251846056153415,
+          "avg_velocity": 1.68264639377594,
+          "max_velocity": 2.004678726196289,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_98",
+        "scenario_name": "line_robot_98",
+        "seed": 133,
+        "success": true,
+        "collision": false,
+        "completion_time": 14.38,
+        "trajectory_length": 2876,
+        "metrics": {
+          "path_length": 24.77602767944336,
+          "direct_distance": 24.0,
+          "path_efficiency": 0.9686782956123352,
+          "velocity_smoothness": 0.98854575942688,
+          "yaw_rate_smoothness": 0.9354910386910698,
+          "avg_velocity": 1.7217116355895996,
+          "max_velocity": 2.166747808456421,
+          "spl": 0.9686782956123352
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_99",
+        "scenario_name": "line_robot_99",
+        "seed": 134,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2195,
+        "metrics": {
+          "path_length": 18.470623016357422,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.2993606328964233,
+          "velocity_smoothness": 0.98823128285477,
+          "yaw_rate_smoothness": 0.9462282889573781,
+          "avg_velocity": 1.6819626092910767,
+          "max_velocity": 2.01082181930542,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      },
+      {
+        "trial_name": "line_robot_100",
+        "scenario_name": "line_robot_100",
+        "seed": 135,
+        "success": false,
+        "collision": true,
+        "completion_time": null,
+        "trajectory_length": 2199,
+        "metrics": {
+          "path_length": 18.40131378173828,
+          "direct_distance": 24.0,
+          "path_efficiency": 1.3042546510696411,
+          "velocity_smoothness": 0.988121243722816,
+          "yaw_rate_smoothness": 0.9468927906854396,
+          "avg_velocity": 1.6726950407028198,
+          "max_velocity": 1.965569257736206,
+          "spl": 0.0
+        },
+        "obstacle_count": 700
+      }
+    ]
+  },
+  "summary": {
+    "obstacles_700": {
+      "obstacle_count": 700,
+      "total_trials": 100,
+      "success_rate": 0.76,
+      "collision_rate": 0.24,
+      "avg_completion_time": 15.041184210526314,
+      "path_efficiency": 1.2951710426807403,
+      "velocity_smoothness": 0.9880514274229724,
+      "spl": 0.716769825220108
+    }
+  },
+  "comparison": {
+    "obstacle_counts": [
+      700
+    ],
+    "success_rates": [
+      0.76
+    ],
+    "avg_completion_times": [
+      15.041184210526314
+    ],
+    "path_efficiencies": [
+      1.2951710426807403
+    ],
+    "best_obstacle_level": 700,
+    "worst_obstacle_level": 700
+  }
+}

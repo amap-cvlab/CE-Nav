@@ -1,0 +1,29 @@
+algo:
+  feature_extractor:
+    learning_rate: 1e-3
+    dyn_obs_num: 5
+
+  actor:
+    blocks: 12
+    entropy_coef: 5e-3
+    channels: 512
+    rep_dim: 1024
+    pred_z: False
+    noise_std: 0.1
+    kl_coef: 1e-4
+    learning_rate: 5e-4
+    clip_ratio: 0.1
+    pretrained_actor_path: null
+    action_limit:
+      linear_velocity: 1.5
+      angular_velocity: 1.0
+
+  critic:
+    learning_rate: 1e-3
+    clip_ratio: 0.1
+    loss_coef: 0.5
+
+  entropy_loss_coefficient: 3e-3
+  training_frame_num: 64
+  training_epoch_num: 4
+  num_minibatches: 16

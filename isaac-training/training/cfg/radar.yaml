@@ -1,0 +1,5 @@
+sensor:
+  lidar_range: 4.
+  lidar_vfov: 0.
+  lidar_vbeams: 1
+  lidar_hres: 2.5

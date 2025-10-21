@@ -1,0 +1,58 @@
+defaults:
+  - _self_
+  - radar
+  - ppo
+  - sim
+
+headless: False
+device: "cuda:0"
+seed: 36
+
+fixed_scenario_eval: true
+use_line_formation: true
+trials_per_obstacle_level: 1
+
+max_frame_num: 5e3
+eval_interval: 1
+save_interval: 1
+
+evaluation:
+  mode: guided_student
+  expert_cnfm_model_path: "../../../il_training/fastsys/checkpoints/dynfji91/best_model.pt"
+  student_checkpoint: "ckpts/checkpoint_7500.pt"
+
+line_formation_config:
+  num_robots: 100
+  start_y: -13.0
+  target_y: 11.
+  x_range: [-8.0, 8.0]
+  height: 0.42
+  min_distance_to_obstacles: 1.0
+  env_boundary_extension: 15.0
+  max_batch_size: 100
+  enable_cuda_error_handling: true
+
+env:
+  num_envs: 100
+  max_episode_length: 6000
+  env_spacing: 5.0
+  initial_num_obstacles: 700
+  max_num_obstacles: 1500
+  increment_num_obstacles: 40
+
+env_dyn:
+  num_obstacles: 0
+  vel_range: [0.5, 1.5]
+  local_range: [5.0, 5.0, 4.5]
+
+viewer:
+  eye: [0., 20., 20.]
+  lookat: [0., 0., 0.]
+  resolution: [960, 540]
+
+wandb:
+  project: eval
+  name: eval
+  entity: 
+  mode: disabled
+  run_id: 
