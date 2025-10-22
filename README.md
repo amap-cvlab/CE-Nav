@@ -4,7 +4,7 @@
   <a href="https://arxiv.org/abs/2509.23203">
     <img src="https://img.shields.io/badge/arXiv-2509.23203-b31b1b.svg" alt="arXiv">
   </a>
-  <a href="https://ce-nav-project.github.io">
+  <a href="https://ce-nav.github.io/">
     <img src="https://img.shields.io/badge/Project-Page-green.svg" alt="Project Page">
   </a>
 </p>
