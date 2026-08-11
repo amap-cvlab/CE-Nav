@@ -1,0 +1,24 @@
+data:
+  # Point these to your local dataset directories (containing .npz samples).
+  train_dir: "./data/fastsys/train_data"
+  test_dir: "./data/fastsys/test_data"
+  # batch_size: 6144
+  batch_size: 1024
+  num_workers: 16
+  min_action: [-1.5, -1.5, -1.57]  # vx_min, vy_min, vyaw_min
+  max_action: [1.5, 1.5, 1.57]    # vx_max, vy_max, vyaw_max
+
+
+training:
+  lr: 0.001
+  epochs: 100
+  log_interval: 1000
+  test_interval: 1000
+  save_interval: 1
+  save_dir: "./checkpoints"
+
+wandb:
+  use_wandb: True
+  project: "embodied_policy"
+  entity:
+  mode: offline # online

@@ -34,3 +34,4 @@ test_data
 train.npy
 test.npy
 eval*/
+outputs/

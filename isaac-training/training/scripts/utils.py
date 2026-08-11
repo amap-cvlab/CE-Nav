@@ -6,7 +6,12 @@ import numpy as np
 from typing import Iterable, Union
 from tensordict.tensordict import TensorDict
 from torchrl.modules import ProbabilisticActor
-from omni_drones.utils.torchrl import RenderCallback
+try:
+    from omni_drones.utils.torchrl import RenderCallback
+except ImportError:
+    # RenderCallback is only used for rollout rendering inside evaluate() (RL path).
+    # The imitation-learning pipeline reuses the utilities below without Isaac/omni_drones.
+    RenderCallback = None
 from torchrl.envs.utils import ExplorationType, set_exploration_type
 
 class ValueNorm(nn.Module):

@@ -53,11 +53,8 @@ CE-Nav is a learning-based, generalizable local navigation framework for robots.
 - [x] **Cross-Embodiment Evaluation Framework** - Unified evaluation methods for different robot platforms
 - [x] **VelFlow Expert Model Checkpoint** - Pre-trained General Expert model
 - [x] **Go2 Model Checkpoint** - Trained policy checkpoint for Unitree Go2 quadruped
-
-**Upcoming Releases:**
-
-- [ ] **VelFlow Expert Training Code** - General Expert model training pipeline
-- [ ] **Go2 Training Code** - Complete training scripts for Unitree Go2 quadruped
+- [x] **VelFlow Expert Training Code** - Imitation-learning pipeline for the General Expert model
+- [x] **Go2 Training Code** - Reinforcement-learning refinement scripts for Unitree Go2 quadruped
 
 Stay tuned for updates!
 
@@ -163,6 +160,53 @@ conda activate cenav
 cd isaac-training/training/scripts
 python eval.py
 ```
+
+### Training
+
+CE-Nav is trained in two stages: (1) imitation learning to obtain the embodiment-agnostic VelFlow expert, then (2) reinforcement learning to refine it for a specific robot.
+
+#### Stage 1 — VelFlow Expert (Imitation Learning)
+
+The VelFlow expert is trained by imitating a DWA motion planner in procedurally-generated obstacle scenarios. Each demonstration is an `.npz` sample with keys `state` (6,), `target` (2,), `obstacle` (127x127 occupancy grid), and `action` (3,).
+
+**(a) Generate expert demonstrations** (optional — skip if you already have a dataset):
+
+```bash
+conda activate cenav
+cd il_training/fastsys
+# eval.py's main() defaults to mode='dwa': it runs the DWA planner and
+# saves .npz samples under eval_results/
+python eval.py
+```
+
+**(b) Point the config at your dataset** — edit `il_training/fastsys/config_navrl_il.yaml`:
+
+```yaml
+data:
+  train_dir: "./eval_results"   # directory of training .npz files
+  test_dir:  "./eval_results"   # directory of test .npz files (use a separate split for proper evaluation)
+```
+
+**(c) Train the flow policy:**
+
+```bash
+cd il_training/fastsys
+python train_navrl_il.py
+```
+
+Checkpoints are written to `checkpoints/<run_id>/`; the best model is selected by in-loop DWA evaluation and saved as `best_model.pt`.
+
+#### Stage 2 — Embodiment Refinement (Reinforcement Learning)
+
+The RL stage loads the frozen VelFlow expert as an imitation reference and refines the policy for a specific embodiment (e.g., Go2) in Isaac Sim.
+
+```bash
+conda activate cenav
+cd isaac-training/training/scripts
+python train.py
+```
+
+Training uses `cfg/train.yaml` (composed with `ppo.yaml`, `radar.yaml`, `sim.yaml`). The IL expert checkpoint `il_training/fastsys/checkpoints/dynfji91/best_model.pt` is loaded as the reference.
 
 ## Citation
 

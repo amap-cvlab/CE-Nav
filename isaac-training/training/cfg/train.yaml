@@ -1,0 +1,40 @@
+defaults:
+  - _self_
+  - radar
+  - ppo
+  - sim
+
+headless: True
+device: "cuda:0"
+seed: 0
+
+# Total Training Length
+max_frame_num: 12e9 # max frame, default is 12e8
+eval_interval: 2000 # evaluate the policy for every N training steps, default is 1000
+save_interval: 500 # default is 1000
+
+# Training Environment
+env:
+  num_envs: 2048 # Number of go2s for training
+  max_episode_length: 6000
+  env_spacing: 5.0
+  initial_num_obstacles: 500
+  max_num_obstacles: 800
+  increment_num_obstacles: 100
+
+env_dyn:
+  num_obstacles: 0 # set to zero if static env is needed, default is 
+  vel_range: [0.5, 1.5]
+  local_range: [5.0, 5.0, 4.5]
+
+viewer:
+  eye: [0., 20., 20.]
+  lookat: [0., 0., 0.]
+  resolution: [640, 360]
+
+wandb:
+  project: CE-Nav
+  name: navigation_training
+  entity:
+  mode: offline # online
+  run_id:
